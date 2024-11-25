@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <a href="./bag.html">BAG</a>
+  <form id="addForm">
+    <div class="mb-3">
+      <label for="product_name" class="form-label">Email address</label>
+      <input
+        type="text"
+        class="product_name form-control"
+        name="product_name"
+        placeholder="product_name"
+        id="product_name"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="product_description" class="form-label"
+        >Email address</label
+      >
+      <input
+        type="text"
+        class="product_description form-control"
+        name="product_description"
+        placeholder="product_description"
+        id="product_description"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="product_price" class="form-label">Email address</label>
+      <input
+        type="text"
+        class="product_price form-control"
+        name="product_price"
+        placeholder="product_price"
+        id="product_price"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="store_name" class="form-label">Email address</label>
+      <input
+        type="text"
+        class="store_name form-control"
+        name="store_name"
+        placeholder="store_name"
+        id="store_name"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="store_address" class="form-label">Email address</label>
+      <input
+        type="text"
+        class="store_address form-control"
+        name="store_address"
+        placeholder="store_address"
+        id="store_address"
+      />
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  <ul id="list"></ul>
+  <script src="./axios.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
